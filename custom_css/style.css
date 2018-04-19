@@ -1,0 +1,197 @@
+html, body
+{
+	height: 100%;
+}
+
+body
+{
+	width: 100%;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+	min-width: 640px;
+}
+#profile_table
+{
+	width: 60%; 
+	margin: 20px auto;
+	
+}
+#profile_table thead tr td, #profile_table tbody tr td
+{
+	text-align: center;
+	vertical-align: middle;
+}
+.app-bar-element.branding
+{
+	font-weight: bold;
+}
+#divider
+{
+	width: 2px;
+}
+#secondContainer
+{
+	flex: 1;
+}
+#secondContainer:after
+{
+	content: "";
+	display: block;
+}
+
+
+footer a:link
+{
+	
+	font-weight: bold;
+}
+footer a:visited
+{
+	font-weight: bold;
+}
+footer a:hover
+{
+	
+	font-weight: bold;
+}
+footer a:active
+{
+	
+	font-weight: bold;
+}
+#ATS_QUICK_VTC_STATS
+{
+	display: block;
+	width: 100%;
+}
+
+#ATS_QUICK_VTC_STATS li h4
+{
+	display: block;
+}
+#ATS_QUICK_VTC_STATS li 
+{
+
+	display: block;
+	width: 25%;
+}
+#ATS_QUICK_VTC_STATS li p
+{
+	display: block;
+}
+
+
+
+#ETS2_QUICK_VTC_STATS
+{
+	display: block;
+	width: 100%;
+}
+
+#ETS2_QUICK_VTC_STATS li h4
+{
+	display: block;
+}
+#ETS2_QUICK_VTC_STATS li 
+{
+	display: block;
+	width: 25%;
+}
+#ETS2_QUICK_VTC_STATS li p
+{
+	display: block;
+}
+
+@media screen and (min-width: 1921px)
+{
+	.container
+	{
+		width: 1800px;
+	}
+}
+
+@media screen and (min-width: 1401px) and (max-width: 1920px){
+	.container {
+	  width: 100%;
+	}
+}
+
+
+.full-height
+{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#FormVTCsettings
+{
+	width: 67%;
+	margin: 0px auto;
+}
+#FormVTCsettings table
+{
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+}
+#FormVTCsettings table tr td:nth-child(2)
+{
+	text-align: left;
+	margin: 0px;
+	width: 67%;
+	
+}
+#FormVTCsettings table tr td:nth-child(1)
+{
+	text-align: right;
+	margin: 0px;
+	width: 33%;
+}
+#FormVTCsettings table tr
+{
+	margin: 0px auto;
+}
+#FormVTCsettings table tr td:nth-child(2) div.input-control.text 
+{
+	width: 50%;
+}
+#FormVTCsettings table tr td:nth-child(2) div.input-control.password
+{
+	width: 50%;
+}
+
+
+#userContainer
+{
+	width: 100%;
+	margin: 0px auto;
+}
+#usersTable table
+{
+	text-align: center;
+	width: 100%;
+	margin: 0px auto;
+}
+
+/*#usersTable table thead tr
+{
+	margin: 0px auto;
+}
+
+#usersTable table tbody tr
+{
+	margin: 0px auto;
+}*/
+.img-center {        
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+#profilePIC
+{
+	width: 450px;
+	height: 450px;
+}
